@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Rental</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚗 Car Rental</h1>
+  <div class="page">
+    <h2>Our Cars</h2>
+    <div class="cards" id="cards"></div>
+
+    <div class="row">
+      <div class="form">
+        <h2>Book a Car</h2>
+        Name: <input id="name">
+        Phone: <input id="phone">
+        Email: <input id="email">
+        Car: <select id="car"></select>
+        Pickup Date: <input type="date" id="pickup">
+        Return Date: <input type="date" id="dropoff">
+        <button onclick="bookCar()">Book Now</button>
+        <p id="message"></p>
+        <div id="summary"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
